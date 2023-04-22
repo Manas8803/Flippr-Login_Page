@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/lock.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+
+    <title>Login Form</title>
+  </head>
+  <body>
+    <section>
+      <div class="flip-container">
+        <div class="flipper" id="flipper">
+          <div class="front">
+            <div class="form-box">
+              <div class="form-value">
+                <form action="">
+                  <h1>Login</h1>
+                  <div class="inputbox">
+                    <input type="" required />
+                    <label for="">Email</label>
+                  </div>
+                  <div class="inputbox pass">
+                    <input type="password" id="showPass" required />
+                    <label for="">Password</label>
+                  </div>
+                  <div class="img-container">
+                    <img src="eye-solid.svg" id="eyeImg-l" alt="" />
+                  </div>
+
+                  <div class="forget">
+                    <label for=""><input type="checkbox" />Remember me</label>
+                    <a href="#" onclick="message()">Forgot Password</a>
+                  </div>
+                  <button onclick="message()" id="logBtn">Log in</button>
+                  <div class="register">
+                    <p>
+                      Haven't registered yet?
+                      <a href="#" id="registerButton">Register</a>
+                    </p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="back">
+            <div class="form-box">
+              <div class="form-value">
+                <form action="">
+                  <h1>Register</h1>
+                  <div class="inputbox">
+                    <input type="" required />
+                    <label for="">Email</label>
+                  </div>
+                  <div class="inputbox">
+                    <input type="password" required />
+                    <label for="">Name</label>
+                  </div>
+                  <div class="inputbox">
+                    <input type="password" required />
+                    <label for="">Password</label>
+                  </div>
+                  <div class="img-container">
+                    <img src="eye-solid.svg" id="eyeImg-r" alt="" />
+                  </div>
+                  <div class="forget"></div>
+                  <button>Register</button>
+                  <div class="register">
+                    <p>
+                      Already a User?
+                      <a href="#" id="loginButton">Login</a>
+                    </p>
+                  </div>
+                  <script src="index.js"></script>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
