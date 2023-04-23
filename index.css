@@ -175,3 +175,31 @@ button {
 .register p a:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 600px) {
+  .form-box {
+    width: 70vw;
+    height: 55vh;
+  }
+}
+
+@media (min-width:280) and (max-width:600px) {
+  .form-box {
+    width: 100vw;
+    height: 50vh;
+  }
+}
+@media (min-width:600) and (max-width:900px) {
+  .form-box {
+    width: 80vw;
+    height: 50vh;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1080px) {
+  .form-box {
+    width: 50vw;
+    height: 50vh;
+  }
+}
+
