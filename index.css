@@ -183,13 +183,13 @@ button {
   }
 }
 
-@media (min-width:280) and (max-width:600px) {
+@media (min-width:280px) and (max-width:600px) {
   .form-box {
     width: 100vw;
     height: 50vh;
   }
 }
-@media (min-width:600) and (max-width:900px) {
+@media (min-width:600px) and (max-width:900px) {
   .form-box {
     width: 80vw;
     height: 50vh;
